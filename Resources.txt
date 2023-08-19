@@ -1,1 +1,9 @@
-https://debuggercafe.com/traffic-sign-recognition-using-pytorch-and-deep-learning/
+Traffic Light and signs recognition germany: https://debuggercafe.com/traffic-sign-recognition-using-pytorch-and-deep-learning/
+
+
+Circle Python: https://www.circle.com/en/
+
+Taipy: https://www.taipy.io/
+
+
+
