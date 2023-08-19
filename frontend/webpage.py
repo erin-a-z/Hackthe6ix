@@ -8,17 +8,21 @@ password = ""
 
 # Definition of the page
 page = """
+
+
+
+<|layout|columns=auto|
+<|part|class_name=m-auto|
+
 # Login # {: .text-center}
-Email: <|{email}|input|classname=text-center|> 
-{: .text-center}
+Email: <|{email}|input|class=text-center|> 
+
 
 Password: <|{password}|input|>
-{: .text-center}
 
 <|Run local|button|on_action=loginButtonAction|>
-{: .text-center}
-
-
+|>
+|>
 """
 
 def loginButtonAction(state):
