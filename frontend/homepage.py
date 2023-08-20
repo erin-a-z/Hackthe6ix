@@ -20,7 +20,11 @@ sys.path.append(parent_dir)
 # Now you can import something.py from the backend folder
 from backend.pyrebaseAuth import login,signup
 
+codes = ["1111", "2222"]
 
+userPoints = 5
+code = 0
+points = 0
 email = ""
 password = ""
 # login
@@ -53,6 +57,23 @@ def signUpPage(state):
 # landing page redirecting to login
 def loginPage(state):
     navigate(state, "login")
+
+def checkCode(state):
+    newCode = state.code
+
+    for code in codes:
+        
+        if code == newCode:
+            notify(state, "error", f"Code already exists")
+            return
+    codes.append(newCode)
+    print(codes)
+    notify(state, 'Code Valid:', "Successfully added points")
+    #add to a point counter
+    state.points +=1
+    print("Userpoints: ", userPoints)
+    print("Points: ", state.points)
+    return
 
 # dashboard graphs
 list_to_display = [100/x for x in range(1, 100)]
