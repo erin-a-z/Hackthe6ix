@@ -1,0 +1,11 @@
+taipy
+python-magic
+os
+sys
+
+qrcode
+qrscan
+pyrebase
+pyrebase4
+opencv-python
+firebase

@@ -57,6 +57,7 @@ def loginPage(state):
 # dashboard graphs
 list_to_display = [100/x for x in range(1, 100)]
 data = {"x_col":[0,1,2], "y_col_1":[4,2,1], "y_col_2":[3,1,2]}
+
 pages = {
     "/": root_md,
     "landing": page1_md,

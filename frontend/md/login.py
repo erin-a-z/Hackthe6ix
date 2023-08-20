@@ -5,7 +5,7 @@ page2_md="""
 # Login # {: .text-center}
 Email: <|{email}|input|class=text-center|> 
 
-Password: <|{password}|input|>
+Password: <|{password}|input|password|>
 
 <|Login|button|on_action=lol|>
 

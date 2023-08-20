@@ -8,7 +8,7 @@ Email: <|{email}|input|class=text-center|>
 
 Password: <|{password}|input|>
 
-<|Sign up|button|on_action=sigh|>
+<|Sign up|button|on_action=sigh|password|>
 
 To [Login](login) instead
 |>
