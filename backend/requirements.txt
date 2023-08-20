@@ -1,3 +1,5 @@
 qrcode
 qrscan
 pyrebase
+pyrebase4
+opencv-python
