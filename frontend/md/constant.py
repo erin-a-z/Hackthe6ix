@@ -2,8 +2,8 @@ root_md = """
 <|layout|columns=auto|
 <|part|class_name=m-auto|
 
-# Recyclonnect  # {: .text-center}
-<|{'frontend/logo.png'}|image|>
+# Recyclonnect  {: .text-center}
+<|{'frontend/logo.png'}|image|width=5vw|>
 {: .text-center}
 
 <|content|>

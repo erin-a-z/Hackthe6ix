@@ -1,5 +1,5 @@
 page1_md="""
-## We are a organization that certifies the product that are actually recyclable. ## {: .text-center}
+## We are an organization that certifies the product that are actually recyclable. ## {: .text-center}
 
 <|Sign up|button|on_action=loginPage|><|Login|button|on_action=loginPage|>
 {: .text-center}
