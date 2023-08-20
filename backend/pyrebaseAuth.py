@@ -21,6 +21,7 @@ def signup(email, password):
         return user
     except:
         print("Email already exists")
+        return 
     
 
 def login(email, password):
@@ -31,5 +32,7 @@ def login(email, password):
         return login
     except:
         print("Email or password invalid!!!")
+        return
 
-login("test@gmail.com", " password")
+# login("test@gmail.com", " password")
+signup("w0w@w0w.c0n", "p4ssss")

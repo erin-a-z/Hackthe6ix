@@ -1,13 +1,14 @@
-page2_md="""
+page4_md="""
 <|layout|columns=auto|
 <|part|class_name=m-auto|
 
-# Login # {: .text-center}
+# Sign up # {: .text-center}
 Email: <|{email}|input|class=text-center|> 
+
 
 Password: <|{password}|input|>
 
-<|Login|button|on_action=lol|>
+<|Sign up|button|on_action=sigh|>
 |>
 |>
 """

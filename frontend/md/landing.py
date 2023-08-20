@@ -1,7 +1,7 @@
 page1_md="""
 ## We are an organization that certifies the product that are actually recyclable. ## {: .text-center}
 
-<|Sign up|button|on_action=loginPage|><|Login|button|on_action=loginPage|>
+<|Sign up|button|on_action=signUpPage|><|Login|button|on_action=loginPage|>
 {: .text-center}
 
 <|{'frontend/recycling.jpg'}|image|>

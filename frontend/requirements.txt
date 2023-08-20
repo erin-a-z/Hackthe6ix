@@ -1,2 +1,4 @@
 taipy
 python-magic
+os
+sys
