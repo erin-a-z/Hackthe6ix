@@ -9,4 +9,13 @@ config = {
 
 firebase = pyrebase.initialize_app(config)
 
-firebase.database()
+#Connecting to firebase real time db
+db = firebase.database()
+
+
+#Pushing guest user
+db.child("users").child("Guest2")
+
+data = {"name": "Guest2 Name"}
+
+db.child("users").push(data);

@@ -1,0 +1,5 @@
+Install firebase:
+pip install pyrebase4
+pip3 install pyrebase
+pip install pyrebase4
+pip3 install pyrebase4
