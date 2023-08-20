@@ -1,16 +1,9 @@
 from taipy.gui import Gui, notify
-import pandas as pd
 
 email = ""
 password = ""
 
-
-
-# Definition of the page
-page = """
-
-
-
+login_page = """
 <|layout|columns=auto|
 <|part|class_name=m-auto|
 
@@ -28,5 +21,7 @@ Password: <|{password}|input|>
 def loginButtonAction(state):
     notify(state, 'Login:', "Running Login Function")
 
+Gui(login_page, css_file='frontend/style.css').run(use_reloader=True, port=1200)
 
-Gui(page, css_file='frontend/style.css').run(use_reloader=True, port=1200)
+def login_page():
+    return login_page
