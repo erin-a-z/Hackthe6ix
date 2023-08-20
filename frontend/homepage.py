@@ -58,6 +58,7 @@ def signUpPage(state):
 def loginPage(state):
     navigate(state, "login")
 
+points = {"day":[0,1,2], "count":[4,2,1]}
 def checkCode(state):
     newCode = state.code
 
@@ -77,7 +78,7 @@ def checkCode(state):
 
 # dashboard graphs
 list_to_display = [100/x for x in range(1, 100)]
-data = {"x_col":[0,1,2], "y_col_1":[4,2,1], "y_col_2":[3,1,2]}
+data = {"year":[0,1,2], "Canada":[4,2,1], "USA":[3,1,2]}
 
 pages = {
     "/": root_md,

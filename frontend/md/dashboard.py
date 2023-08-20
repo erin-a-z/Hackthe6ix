@@ -6,6 +6,5 @@ Enter new code:
 <|Submit Code|button|on_action=checkCode|>
 
 Points: <|{code}|>
-<|{points}|chart|>
-<|{data}|chart|x=x_col|y[1]=y_col_1|y[2]=y_col_2|color[1]=green|>
+<|{points}|chart|> <|{data}|chart|x=year|y[1]=Canada|y[2]=USA|color[1]=green|>
 """
