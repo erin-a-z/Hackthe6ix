@@ -5,6 +5,9 @@
 }
 .taipy-text {
     text-align: center;
+    padding-top:20vw;
+    margin-top:200px;
+    border: 20px, pink;
 }
 
 .taipy-button {

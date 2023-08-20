@@ -9,6 +9,8 @@ Email: <|{email}|input|class=text-center|>
 Password: <|{password}|input|>
 
 <|Sign up|button|on_action=sigh|>
+
+To [Login](login) instead
 |>
 |>
 """
