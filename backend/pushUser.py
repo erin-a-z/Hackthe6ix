@@ -9,13 +9,19 @@ config = {
 
 firebase = pyrebase.initialize_app(config)
 
-#Connecting to firebase real time db
-db = firebase.database()
+###Definitions
+
+def addUser(username, password):
+  #Connecting to firebase real time db
+  db = firebase.database()
+
+  #Pushing guest user
+  db.child("users").child(username)
+  data = {"password": password}
+  db.set(data);
 
 
-#Pushing guest user
-db.child("users").child("Guest2")
 
-data = {"name": "Guest2 Name"}
 
-db.child("users").push(data);
+##### Running
+addUser("Test User2", "badpassword")
